@@ -1,496 +1,225 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="en" class="no-js" >
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon"
-    href="https://img.icons8.com/external-others-pike-picture/200/external-Cardamom-aromatherapy-others-pike-picture.png"
-    type="image/png">
-  <title>Thespicecompany</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-
-  <!-- Favicons
+    <!--- basic page needs
     ================================================== -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spurgeon</title>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-  <!-- Stylesheet
+    <!-- CSS
     ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <style>
-    .small-img {
-      max-width: 80%;
-      height: auto;
-      max-height: 80px;
-      /* Set a maximum height as needed */
-    }
+    <!-- favicons
+    ================================================== -->
+ 
 
 
-    .logs-row {
-      display: flex;
-      justify-content: center;
-    }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
-    .logs-item {
-      flex: 0 0 auto;
-      /* Adjust the width as needed */
-      margin-right: 10px;
-    }
-
-    .intro-text h5 {
-      color: white;
-      margin-top: 10px;
-      /* Adjust the margin as needed */
-      position: relative;
-      left: 290px;
-      /* Adjust the left position to move it to the right */
-    }
-
-
-
-
-    .gallery-item {
-      margin-bottom: 10px;
-    }
-
-    .section-title {
-      margin-bottom: 30px;
-    }
-
-    #video-section video {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-
-    @media (max-width: 767px) {
-      .intro-text h5 {
-        left: 0;
-        /* Adjust the left position for mobile view */
-      }
-
-      #video-section video {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-      }
-
-      .navbar-collapse {
-        background-color: #1e1d1db8;
-      }
-
-      .navbar-nav {
-        margin-top: 20px;
-      }
-
-      .features-item img,
-      .features-item p {
-        margin-top: 20px;
-      }
-
-      #about .row {
-        flex-direction: column-reverse;
-      }
-
-      #gallery .gallery-item img {
-        width: 100%;
-      }
-
-      #team .team-img img {
-        width: 100%;
-      }
-
-      #video-section video {
-        width: 100%;
-      }
-
-      #contact .col-md-4 {
-        margin-bottom: 20px;
-      }
-
-      #contactForm {
-        margin-top: 20px;
-      }
-    }
-  </style>
 </head>
+<body id="top">
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <!-- Navigation
-    ==========================================-->
-  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
-            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#features" class="page-scroll">Specials</a></li>
-          <li><a href="#about" class="page-scroll">About</a></li>
-          <!-- <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li> -->
-          <li><a href="#team" class="page-scroll">Our Plantation</a></li>
-          <li><a href="#contact" class="page-scroll">Contact</a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-  </nav>
-  <!-- Header -->
-  <header id="header">
-    <div class="intro">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="intro-text">
-              <h1>Spice and Herbs</h1>
-              <h5>THESPICECOMPANY</h5>
-              <p></p>
+    <!-- preloader
+    ================================================== -->
+
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header id="masthead" class="s-header">
+            
+            <div style="display: flex; justify-content: center;">
+                <div style="margin: 0; position: absolute; top: -10px;"> <!-- Adjust the top value as needed -->
+                    <img src="images/img1.png" alt="Reels Header Image" style="width: auto; height: 90px;">
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- Features Section -->
-  <div id="features" class="text-center">
-    <div class="container">
-      <div class="section-title">
-        <h2>Our Specials</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>CARDAMOM</h3>
-            <img src="img/specials/1.jpeg" class="img-responsive" alt="">
-            <p>Presenting single origin, premium-grade whole cardamom. Sustainably cultivated on our own
-              plantations,our shade-grown cardamom is sure to add a unique flavour &
-              aroma to your culinary delights.</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>CINNAMON</h3>
-            <img src="img/specials/2.jpeg" class="img-responsive" alt="">
-            <p> A fragrant journey to warmth and flavor. Beyond the spice rack, it unveils a
-              trio of treasures—anti-inflammatory, antioxidant, and antimicrobial wonders. Sprinkle wellness with every
-              pinch, a spice that delights the senses and nurtures the body</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>BLACK PEPPER</h3>
-            <img src="img/specials/3.jpeg" class="img-responsive" alt="">
-            <p>Organic Black Pepper is in powder form made with which widely use in traditional
-              ayurvedic treatment since ancient time by the scholars of ayurveda for chronic as well as lifestyle
-              disorders.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            
 
+            <div class="s-header__branding" >
+                
 
-
-  <!-- About Section -->
-  <div id="about">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 about-img"> </div>
-        <div class="col-xs-12 col-md-3 col-md-offset-1">
-          <div class="about-text">
-            <div class="section-title">
-              <h2>Cardamom EmpowerNest</h2>
             </div>
-            <p>In the heart of Kerala, India, Cardamom EmpowerNest stands as a guardian of tradition and purveyor of
-              excellence in every spice pod. Our journey begins amidst the lush landscapes where cardamom has flourished
-              for centuries, drawing on the heritage of Ayurvedic practices and global spice trade routes.</p>
-            <p>Cardamom EmpowerNest is not just about spice; it's about people.Beyond the fields, Cardamom EmpowerNest
-              is a catalyst for positive change in local communities. With us,
-              every cardamom experience is a blend of tradition and
-              the future is nurtured.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Gallery Section -->
-  <div id="gallery">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="gallery-item mb-3">
-            <img src="img/gallery/pic1.jpg" class="img-responsive" alt="">
+            <div class="row s-header__navigation">
 
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="gallery-item mb-3">
-            <img src="img/gallery/pic2.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="gallery-item mb-3">
-            <img src="img/gallery/pic3.jpg" class="img-responsive" alt="">
-
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="gallery-item mb-3">
-            <img src="img/gallery/pic4.jpg" class="img-responsive" alt="">
-
-          </div>
-          <br>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- cztm imgs section -->
-  <div class="text-center">
-    <div class="container">
-      <div class="section-title">
-        <h2>history of cardamom in India</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>Kerala's Roots</h3>
-            <img src="img/gallery/a1.jpeg" class="img-responsive" alt="">
-            <br>
-            <p>Cardamom is believed to have originated in the Western Ghats of southern India, and Kerala, known for its
-              lush greenery and favorable climate, became one of the primary regions for the cultivation of cardamom.
-              The spice has ancient roots in Kerala, where it was used not only for culinary purposes but also in
-              traditional Ayurvedic medicine.</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>Spice Exchange</h3>
-            <img src="img/gallery/a2.jpeg" class="img-responsive" alt=""><br>
-            <p>
-
-              Kerala, strategically located on the southwestern coast of India, played a crucial role in the spice trade
-              routes. Arab traders were among the first to establish a trade network, introducing cardamom to the Middle
-              East. The spice became a significant part of Kerala's cultural and economic landscape, influencing both
-              cuisine and traditional medicine practices.</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="features-item">
-            <h3>Colonial Influence</h3>
-            <img src="img/gallery/a3.jpeg" class="img-responsive" alt="">
-            <br>
-            <p>
-
-              During the colonial era, European powers, including the Portuguese, Dutch, and British, sought control
-              over the spice trade. Kerala, being a major hub, became a center for European colonial activities. The
-              British, in particular, recognized the economic potential of cardamom cultivation and established
-              plantations in the hilly terrains of Kerala.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- our plantation -->
-  <div id="team">
-    <div class="container">
-      <div id="row">
-        <div class="col-md-6">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="section-title">
-              <h2> The essence of our Our Plantation</h2>
-            </div>
-            <p>Welcome to the heart of our plantation, where the air is infused with the aromatic dance of cardamom,
-              herbs, and spices. At our company, we take pride in cultivating and delivering the very essence of
-              nature's bounty to your doorstep. Nestled in a lush landscape, our plantation is a haven where tradition
-              meets innovation, resulting in a harmonious blend of flavors that captivate the senses.</p>
-            <p> </p><br>
-            <p>Our company is more than just a purveyor of fine spices; we are committed to fostering a sustainable and
-              ethical approach to agriculture.By choosing our products, you become a part of this commitment to a
-              better, more responsible future. We invite you to savor the essence of our plantation, where the rich
-              tapestry of cardamom, herbs, and spices weaves a story that celebrates the beauty of nature and the art of
-              cultivation.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="team-img"><img src="img/chef.jpeg" alt="..."></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Video Section -->
-  <div id="video-section" class="text-center">
-    <div class="container">
-      <div class="section-title">
-        <h2>Watch Our Plantation in Action</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <video width="100%" autoplay muted loop>
-            <source src="img/plnt.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </div>
+                <nav class="s-header__nav-wrap">
     
-  </div>
-  <br>
-  <!-- Logs Section -->
-  <div id="logs">
-    <div class="container-fluid text-center">
-      <div class="row logs-row">
-        <!--       <div class="logs-item col-4">
-        <img src="img/gallery/FSSAI.png" class="img-responsive small-img" alt="">
-      </div> -->
-        <div class="logs-item col-4">
-          <img src="img/gallery/Halal Certified Logo Vector.png" class="img-responsive small-img" alt="">
-        </div>
-        <div class="logs-item col-4">
-          <img src="img/gallery/Aroma.png" class="img-responsive small-img" alt="">
-        </div>
-        <div class="logs-item col-4">
-          <img src="img/gallery/fairtrade-vector-logo.png" class="img-responsive small-img" alt="">
-        </div>
-        <!-- 
-      <div class="logs-item col-4">
-        <img src="img/gallery/Kosher Logo Vector.png" class="img-responsive small-img" alt="">
-      </div> -->
-        <div class="logs-item col-4">
-          <img src="img/gallery/kosher.jpg" class="img-responsive small-img" alt="">
+                    <h3 class="s-header__nav-heading">Navigate to</h3>
+    
+     
+
+                </nav> <!-- end s-header__nav-wrap -->
+    
+            </div> <!-- end s-header__navigation -->
+
+            <div class="s-header__search">
+
+                <div class="s-header__search-inner">
+                    <div class="row">
+    
+                        <form role="search" method="get" class="s-header__search-form" action="#">
+                          
+                            
+                        </form>
+    
+                        <a href="#0" title="Close Search" class="s-header__search-close">Close</a>
+    
+                    </div> <!-- end row -->
+                </div> <!-- s-header__search-inner -->
+    
+            </div> <!-- end s-header__search -->
+
+           
+
+        </header> <!-- end s-header -->
+
+        <div class="row">
+            
+            <div class="column">
+                <img src="images\thumbs\masonry\img2.jpg" alt="Image 1">
+                <p>Text for Image 1</p>
+            </div>
+            <div class="column">
+                <img src="images/thumbs/masonry/img3.jpg" alt="Image 2">
+                <p>Text for Image 2</p>
+            </div>
+            <div class="column">
+                <img src="images\thumbs\masonry\img1.jpg" alt="Image 3">
+                <p>Text for Image 3</p>
+            </div>
+            <div class="column">
+                <img src="images\thumbs\masonry\img4.jpg" alt="Image 4">
+                <p>Text for Image 4</p>
+            </div>
         </div>
 
-      </div>
-    </div>
-  </div>
-  <br>
-  <!-- Contact Section -->
-  <div id="contact" class="text-center">
-    <div class="container text-center">
-      <div class="col-md-4">
-        <h3>Plantation Address</h3>
-        <div class="contact-item">
-          <p>Valummel plantation</p>
-          <p>vallakadave road</p>
-          <p>Kattappana</p>
-          <p>Idukki</p>
-          <p>Kerala India</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h3>Office Address</h3>
-        <div class="contact-item">
-          <p>The Spices Company</p>
-          <p>Off :104</p>
-          <p>Lootha Bldg</p>
-          <p>Al Qusias 2</p>
-          <p>Dubai UAE</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h3>Contact us</h3>
-        <div class="contact-item">
-          <!-- <p>Email : sales@thespicescompany.com</p> -->
-          <p>Mob : +971556791998</p>
-          <!-- Button to open Google Mail -->
-          <button class="btn btn-custom btn-lg" onclick="openGoogleMail()">Email us</button>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="container">
-      <div class="section-title text-center">
-        <h3>Send us a message</h3>
-      </div>
-      <div class="col-md-8 col-md-offset-2">
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"
-              required></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-          <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-        </form>
-      </div>
-    </div> -->
-  </div>
-  <div id="footer">
-    <div class="container text-center">
-      <div class="col-md-6">
-        <p>&copy; 2023. All rights reserved. <!-- Design by <a href="http://www.templatewire.com"
-            rel="nofollow">TemplateWire</a> --></p>
-      </div>
-      <div class="col-md-6">
-        <div class="social">
-          <!-- <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-          </ul> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    function openGoogleMail() {
-      // Email address to be filled in the "To" field
-      var emailAddress = 'sales@thespicescompany.com';
 
-      // Open a new Google Mail page with the specified email address in the "To" field
-      window.location.href = 'mailto:' + emailAddress;
-    }
-  </script>
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/contact_me.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+        <!-- # site-footer
+        ================================================== -->
+        <footer id="colophon" class="s-footer">
+
+            <div class="containerfooter">
+                <img src="images/img1.png" alt="Description of the image">
+                <p>A planet of sensory bliss</p>
+                       <div> 
+                      
+                            <a href="#0"  style="margin-right: 10px;">
+                                <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <path d="m0 0h32v32h-32z"></path> <g fill="#000000" fill-rule="nonzero"> <path d="m32 16c0-8.83636363-7.1636364-16-16-16-8.83636362 0-16 7.16363638-16 16 0 8.8363636 7.16363638 16 16 16 8.8363636 0 16-7.1636364 16-16zm-30.54545453 0c0-8.03345453 6.512-14.54545453 14.54545453-14.54545453 8.0334545 0 14.5454545 6.512 14.5454545 14.54545453 0 8.0334545-6.512 14.5454545-14.5454545 14.5454545-8.03345453 0-14.54545453-6.512-14.54545453-14.5454545z"></path> <path d="m16.6138182 25.2349091v-9.2349091h3.0472727l.4814545-3.0603636h-3.5287272v-1.5345455c0-.7985455.2618182-1.56072727 1.408-1.56072727h2.2909091v-3.05454547h-3.2523636c-2.7345455 0-3.4807273 1.80072728-3.4807273 4.29672724v1.8516364h-1.8763637v3.0618182h1.8763636v9.2349091z"></path> </g> </g> </g></svg>
+                                <span class="u-screen-reader-text">facebook</span>
+                            </a>
+                            <a href="#0"  style="margin-right: 10px;">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.06167 7.24464C3.10844 6.22264 3.26846 5.56351 3.48487 5.00402L3.48778 4.99629C3.70223 4.42695 4.03818 3.91119 4.47224 3.48489L4.47833 3.47891L4.48431 3.47282C4.91096 3.0382 5.42691 2.70258 5.99575 2.4887L6.00556 2.48495C6.56378 2.26786 7.22162 2.10843 8.24447 2.06167M3.06167 7.24464C3.0125 8.33659 2.99997 8.67508 2.99997 11.5063C2.99997 14.3381 3.01181 14.6758 3.06164 15.768M3.06167 7.24464L3.06167 7.52008M3.48867 18.0168C3.70255 18.5856 4.03817 19.1015 4.47279 19.5282L4.47887 19.5342L4.48484 19.5402C4.91116 19.9743 5.42694 20.3103 5.99628 20.5247L6.00478 20.5279C6.56351 20.7446 7.22167 20.9041 8.24447 20.9509M3.48867 18.0168L3.48492 18.0069C3.26783 17.4487 3.1084 16.7909 3.06164 15.768M3.48867 18.0168L3.47585 17.9492M3.06164 15.768L3.07839 15.8562M3.06164 15.768L3.06164 15.4919M3.47585 17.9492L3.07839 15.8562M3.47585 17.9492C3.30704 17.5033 3.13322 16.881 3.07839 15.8562M3.47585 17.9492C3.48177 17.9649 3.48768 17.9803 3.49359 17.9955C3.70766 18.5726 4.04685 19.0952 4.48679 19.5256C4.91708 19.9655 5.43944 20.3046 6.01636 20.5187C6.47934 20.699 7.13172 20.8875 8.24431 20.9385C9.3671 20.9896 9.71399 21 12.5062 21C15.2985 21 15.6457 20.9896 16.7685 20.9385C17.8824 20.8874 18.534 20.6979 18.9954 20.519C19.5726 20.305 20.0953 19.9657 20.5257 19.5256C20.9655 19.0953 21.3046 18.573 21.5187 17.9961C21.699 17.5331 21.8875 16.8808 21.9384 15.7682C21.9895 14.6454 22 14.2978 22 11.5063C22 8.71472 21.9895 8.36684 21.9384 7.24405C21.8871 6.12427 21.6959 5.47168 21.5161 5.00992C21.2811 4.40322 20.9831 3.94437 20.525 3.48627C20.0678 3.02999 19.6102 2.73179 19.003 2.49654C18.5396 2.31537 17.8866 2.12531 16.7685 2.07406C16.6712 2.06964 16.5798 2.06552 16.4921 2.06168M3.07839 15.8562C3.07684 15.8273 3.07539 15.7981 3.07403 15.7685C3.06961 15.6712 3.06548 15.5797 3.06164 15.4919M8.24447 2.06167C9.33668 2.01184 9.67505 2 12.5062 2C15.3374 2 15.6756 2.01252 16.7675 2.06168M8.24447 2.06167L8.52062 2.06167M16.7675 2.06168L16.4921 2.06168M16.7675 2.06168C17.7897 2.10844 18.4489 2.26844 19.0085 2.48487L19.0162 2.48781C19.5855 2.70226 20.1013 3.03821 20.5276 3.47227L20.5335 3.4783L20.5396 3.48422C20.9737 3.91055 21.3096 4.42646 21.5239 4.99596L21.5275 5.00559C21.7446 5.56381 21.9041 6.22165 21.9508 7.2445M8.52062 2.06167L16.4921 2.06168M8.52062 2.06167C9.44548 2.02123 9.95666 2.01253 12.5062 2.01253C15.056 2.01253 15.5671 2.02124 16.4921 2.06168M8.52062 2.06167C8.43284 2.06551 8.34134 2.06964 8.24402 2.07406C7.13004 2.12512 6.47843 2.31464 6.01708 2.49358C5.43767 2.70837 4.91328 3.04936 4.48192 3.49186C4.0281 3.94756 3.73105 4.40422 3.49655 5.0094C3.31536 5.4728 3.12527 6.12614 3.07402 7.24434C3.06961 7.34135 3.06549 7.43257 3.06167 7.52008M21.9508 15.768C21.9041 16.7908 21.7446 17.449 21.5279 18.0077L21.5247 18.0162C21.3102 18.5856 20.9743 19.1013 20.5402 19.5276L20.5341 19.5336L20.5282 19.5397C20.1015 19.9743 19.5856 20.3099 19.0167 20.5238L19.0069 20.5276C18.4487 20.7447 17.7908 20.9041 16.768 20.9509M3.06164 15.4919C3.0212 14.567 3.0125 14.0558 3.0125 11.5063C3.0125 8.95591 3.0212 8.44544 3.06167 7.52008M3.06164 15.4919L3.06167 7.52008M10.8155 15.5881C11.3515 15.8101 11.926 15.9244 12.5062 15.9244C13.678 15.9244 14.8018 15.4589 15.6304 14.6304C16.4589 13.8018 16.9244 12.678 16.9244 11.5063C16.9244 10.3345 16.4589 9.21072 15.6304 8.38215C14.8018 7.55359 13.678 7.0881 12.5062 7.0881C11.926 7.0881 11.3515 7.20238 10.8155 7.42442C10.2794 7.64645 9.79239 7.97189 9.38213 8.38215C8.97187 8.79242 8.64643 9.27947 8.42439 9.81551C8.20236 10.3515 8.08808 10.9261 8.08808 11.5063C8.08808 12.0865 8.20236 12.661 8.42439 13.197C8.64643 13.7331 8.97187 14.2201 9.38213 14.6304C9.79239 15.0406 10.2794 15.3661 10.8155 15.5881ZM9.37229 8.37231C10.2035 7.54113 11.3308 7.07418 12.5062 7.07418C13.6817 7.07418 14.809 7.54113 15.6402 8.37231C16.4714 9.20349 16.9383 10.3308 16.9383 11.5063C16.9383 12.6817 16.4714 13.809 15.6402 14.6402C14.809 15.4714 13.6817 15.9383 12.5062 15.9383C11.3308 15.9383 10.2035 15.4714 9.37229 14.6402C8.54111 13.809 8.07416 12.6817 8.07416 11.5063C8.07416 10.3308 8.54111 9.20349 9.37229 8.37231ZM19.434 6.04229C19.434 6.37873 19.3003 6.70139 19.0625 6.93929C18.8246 7.17719 18.5019 7.31084 18.1655 7.31084C17.829 7.31084 17.5064 7.17719 17.2685 6.93929C17.0306 6.70139 16.8969 6.37873 16.8969 6.04229C16.8969 5.70585 17.0306 5.38319 17.2685 5.1453C17.5064 4.9074 17.829 4.77375 18.1655 4.77375C18.5019 4.77375 18.8246 4.9074 19.0625 5.1453C19.3003 5.38319 19.434 5.70585 19.434 6.04229Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                          
+
+                            <a href="#0" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </div>
+            </div>
+            
+              <div class="row s-footer__bottom">
+                  </div> <!-- end s-footer__bottom -->
+                           <div class="row s-footer__main">
+
+                     <div class="column lg-5 md-6 tab-12 s-footer__about">
+
+                </div> <!-- end s-footer__about -->
+
+           
+
+            </div> <!-- end s-footer__main -->
+            <div class="containerfooter">
+                <div >
+                  
+                    <ul class="link-list">
+                        
+                        <li><a href="">Terms & Policies</a></li>
+                        <li><a href="">Shop from Us</a></li>
+                        <li><a href="">Careers</a></li>
+                       
+                       
+                    </ul>
+                </div>
+                       <div> 
+                                <div class="ss-copyright">
+                                    <span>© Copyright Verraura 2024</span> 
+                                </div>
+                       
+                        </div>
+            </div>
+            <div class="row s-footer__bottom">
+
+                <div class="column lg-7 md-6 tab-12">
+                   
+                </div>
+               
+
+            </div> <!-- end s-footer__bottom -->
+           
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 10.25L12 4.75L6.75 10.25"/>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 19.25V5.75"/>
+                    </svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+
+        </footer><!-- end s-footer -->
+        
+        <div class="starting-bottom-nav">
+            <div class="bottom-nav">
+                <a href="index.html" class="bottom-nav-item">
+                    <i class="fas fa-home"></i>
+                    <span class="bottom-nav-text">Home</span>
+                </a>
+                <a href="productpage.html" class="bottom-nav-item-on">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="bottom-nav-text">Products</span>
+                </a>
+                <a href="Reels/Rindex.html" class="bottom-nav-item">
+                    <span class="navReelicon">
+                        <img src="images/img1.png" alt="Reels Header Image" style="width: auto; height: auto;">
+                    </span>
+                 
+                </a>
+                <a href="Blogs.html" class="bottom-nav-item">
+                    <i class="fas fa-book"></i>
+                    <span class="bottom-nav-text">Blogs</span>
+                </a>
+                <a href="contact.html" class="bottom-nav-item">
+                    <i class="fas fa-user"></i>
+                    <span class="bottom-nav-text">Contact</span>
+                </a>
+            </div>
+        </div>
+        
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-
 </html>
